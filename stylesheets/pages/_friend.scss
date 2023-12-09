@@ -1,0 +1,68 @@
+#search-user-box {
+    height: 100px;
+    border-radius: var(--bs-border-radius);
+
+
+    .search-user {
+
+        .bi {
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 5px;
+            background: var(--ul-bg-color);
+            border-radius: var(--bs-border-radius);
+            color: var(--text-color);
+        }
+
+        #inputGroup-sizing-sm {
+            border: none;
+            border-radius: 0px 5px 5px 0;
+            background: var(--ul-bg-color);
+        }
+
+        .form-control {
+            border-radius: 5px 0 0 5px;
+        }
+    }
+}
+
+#user-result-list {
+    
+
+    .avatar {
+        object-fit: cover;
+        width: 50px;
+        height: 50px;
+    }
+
+    .badges {
+        width: 40px;
+
+    }
+}
+
+#user-result-grid {
+    display: none;
+    .card {
+        display: flex;
+
+        .card-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+
+            img.avatar {
+                height: 80px;
+                width: 80px;
+                object-fit: cover;
+            }
+
+            img {
+                width: 30px;
+                height: 30px;
+            }
+        }
+    }
+}

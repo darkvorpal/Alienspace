@@ -1,0 +1,196 @@
+.home-section {
+    #section-slider-badge {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        .slick-slide {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100px;
+
+            img {
+                width: 40px;
+            }
+        }
+
+        .slick-arrow {
+            padding: 15px;
+            width: 400px;
+            height: 50px;
+            background: var(--nav-color);
+            color: white;
+            border: none;
+            border-radius: var(--bs-border-radius);
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        }
+
+    }
+
+    #block-1 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 200px;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            position: relative;
+        }
+
+        .title-board {
+            border-radius: 10px;
+
+            h1 {
+                color: var(--text-color);
+                text-transform: uppercase;
+                font-size: 25px;
+                font-weight: 300;
+            }
+        }
+
+        .block-profil {
+            margin-left: 50px;
+        }
+
+
+        #avatar-profil {
+            position: relative;
+            z-index: 5;
+            width: 130px;
+            height: 130px;
+            overflow: hidden;
+
+
+            img {
+                object-fit: cover;
+                width: 100%;
+            }
+        }
+
+        .badgelvl {
+            position: relative;
+            width: 50px;
+            left: -90px;
+            bottom: -73px;
+            z-index: 5;
+        }
+
+    }
+
+    #content {
+        .card-wrapper {
+            .card {
+                width: calc(100% / 2 - 15px);
+
+                .card-header {
+                    color: white;
+                    font-weight: 300;
+                }
+
+                .card-body {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+
+                    .bi {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-around;
+                        width: 50px;
+                        height: 50px;
+                        font-size: 30px;
+                        color: white;
+                    }
+                }
+            }
+        }
+
+
+
+    }
+
+    #social-content {
+
+        .title-board {
+            h2 {
+                text-transform: uppercase;
+                font-weight: 300;
+                color: white;
+            }
+        }
+
+        #wn {
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            height: 50px;
+            border-radius: 15px;
+            
+            border: none;
+
+            &::placeholder {
+                color: var(--text-color) !important;
+            }
+        }
+
+        .post-header {
+            img {
+                width: 50px;
+                height: 50px;
+                object-fit: cover;
+            }
+        }
+
+        .post-body {
+            padding: 0;
+
+            img {
+                width: 100%;
+                height: 350px;
+                object-fit: cover;
+            }
+
+            .card-img-overlay {
+                border-radius: 0;
+                color: var(--text-color);
+                background-color: var(--input-bg-color);
+                top: auto;
+                bottom: 53px;
+            }
+
+        }
+
+        .post-footer {
+            display: flex;
+            .like {
+               
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+             
+                border-radius: 5px;
+
+                span {
+                    color: white;
+                    border-radius: 5px;
+                    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+                }
+
+                .bi{
+                    font-size: 30px;
+                    color: white;
+                    cursor: pointer;
+                    transition: 0.5s;
+
+                    &:hover {
+                        color: crimson;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+#section-404 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 80vh;
+img{
+   width: 50%;
+}
+    h1 {
+        text-align: center;
+        text-transform: uppercase;
+        color: var(--text-body-color);
+        font-family: 'Righteous', cursive;
+    }
+
+    a {
+        color: var(--text-body-color);
+        font-family: 'Righteous', cursive;
+    }
+}

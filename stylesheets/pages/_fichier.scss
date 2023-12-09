@@ -1,0 +1,142 @@
+#folder-section {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+
+    .folder {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 5px;
+        width: 100px;
+        height: 100px;
+        background-color: var(--ul-bg-color);
+        backdrop-filter: blur(4px);
+        -webkit-backdrop-filter: blur(4px);
+
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+
+        a {
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100px;
+            height: 100px;
+            text-decoration: none;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            color: white;
+
+            i {
+                font-size: 50px;
+                color: white;
+
+            }
+        }
+    }
+
+    .picture {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 5px;
+        width: 100px;
+        height: 100px;
+        background-color: var(--ul-bg-color);
+        backdrop-filter: blur(4px);
+        -webkit-backdrop-filter: blur(4px);
+
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+
+        a {
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100px;
+            height: 100px;
+            text-decoration: none;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            color: white;
+
+            i {
+                font-size: 50px;
+                color: white;
+
+            }
+        }
+    }
+
+    .file {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 5px;
+        width: 100px;
+        height: 100px;
+        background-color: var(--ul-bg-color);
+        backdrop-filter: blur(4px);
+        -webkit-backdrop-filter: blur(4px);
+
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+
+        a {
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100px;
+            height: 100px;
+            text-decoration: none;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            color: white;
+
+            i {
+                font-size: 50px;
+                color: white;
+
+            }
+        }
+    }
+
+    .movie {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 5px;
+        width: 100px;
+        height: 100px;
+        background-color: var(--ul-bg-color);
+        backdrop-filter: blur(4px);
+        -webkit-backdrop-filter: blur(4px);
+
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+
+        a {
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100px;
+            height: 100px;
+            text-decoration: none;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            color: white;
+
+            i {
+                font-size: 50px;
+                color: white;
+
+            }
+        }
+    }
+
+}

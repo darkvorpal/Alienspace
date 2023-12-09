@@ -1,0 +1,36 @@
+.list-user-chat {
+
+    .card {
+     
+        height: 82px;
+border: none;
+
+        .card-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: transparent;
+
+            h6 {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                color: var(--text-body-color) !important;
+            }
+        }
+
+        img {
+            object-fit: cover;
+            width: 80px;
+            height: 80px;
+        }
+
+        .card-body {
+            overflow: hidden;
+        }
+    }
+
+}
+.message-box{
+    height: 80vh;
+}
